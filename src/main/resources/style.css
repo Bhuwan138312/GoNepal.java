@@ -1,0 +1,63 @@
+.root {
+    -fx-background-color: #002732;
+}
+
+.card {
+    -fx-background-color: #002732;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+}
+
+/* General styling for all labels and text */
+.label {
+    -fx-font-family: "Noto Sans Devanagari", "Mangal", "Devanagari MT", "Arial Unicode MS", sans-serif;
+    -fx-font-size: 12px;
+}
+
+/* Specific styling for different UI elements */
+.button {
+    -fx-font-family: "Noto Sans Devanagari", "Mangal", "Devanagari MT", "Arial Unicode MS", sans-serif;
+}
+
+.text-field {
+    -fx-font-family: "Noto Sans Devanagari", "Mangal", "Devanagari MT", "Arial Unicode MS", sans-serif;
+    -fx-font-size: 12px;
+}
+
+.password-field {
+    -fx-font-family: "Noto Sans Devanagari", "Mangal", "Devanagari MT", "Arial Unicode MS", sans-serif;
+    -fx-font-size: 12px;
+}
+
+.check-box {
+    -fx-font-family: "Noto Sans Devanagari", "Mangal", "Devanagari MT", "Arial Unicode MS", sans-serif;
+}
+
+.menu-button {
+    -fx-font-family: "Noto Sans Devanagari", "Mangal", "Devanagari MT", "Arial Unicode MS", sans-serif;
+}
+
+.menu-item {
+    -fx-font-family: "Noto Sans Devanagari", "Mangal", "Devanagari MT", "Arial Unicode MS", sans-serif;
+}
+
+/* Title/Header styling */
+#loginLabel {
+    -fx-font-family: "Noto Sans Devanagari", "Mangal", "Devanagari MT", "Arial Unicode MS", sans-serif;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #224953;
+}
+
+/* Custom button colors */
+.login-button {
+    -fx-background-color: #224A53;
+    -fx-text-fill: white;
+    -fx-font-family: "Noto Sans Devanagari", "Mangal", "Devanagari MT", "Arial Unicode MS", sans-serif;
+}
+
+.signup-button {
+    -fx-background-color: #0B73AC;
+    -fx-text-fill: white;
+    -fx-font-family: "Noto Sans Devanagari", "Mangal", "Devanagari MT", "Arial Unicode MS", sans-serif;
+}
