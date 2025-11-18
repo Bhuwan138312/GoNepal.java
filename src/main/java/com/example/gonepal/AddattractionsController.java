@@ -50,8 +50,13 @@ public class AddattractionsController {
     @FXML
     public void gotoavailableguides(ActionEvent event) {
         try {
+<<<<<<< HEAD
+            javafx.scene.Parent nextRoot = FXMLLoader.load(getClass().getResource("adminpannel.fxml"));
+            Stage stage = (Stage)((javafx.scene.Node)event.getSource()).getScene().getWindow();
+=======
             javafx.scene.Parent nextRoot = javafx.fxml.FXMLLoader.load(getClass().getResource("adminpannel.fxml"));
             javafx.stage.Stage stage = (javafx.stage.Stage)((javafx.scene.Node)event.getSource()).getScene().getWindow();
+>>>>>>> 70cb5c8126e78850dc2a35ffa83d5f1650eeaaae
             javafx.scene.Scene scene = new javafx.scene.Scene(nextRoot);
             stage.setScene(scene);
             stage.show();
@@ -134,7 +139,11 @@ public class AddattractionsController {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("adminpannel.fxml"));
             javafx.scene.Parent nextRoot = loader.load();
 
+<<<<<<< HEAD
+            Stage stage = (Stage)((javafx.scene.Node)event.getSource()).getScene().getWindow();
+=======
             javafx.stage.Stage stage = (javafx.stage.Stage)((javafx.scene.Node)event.getSource()).getScene().getWindow();
+>>>>>>> 70cb5c8126e78850dc2a35ffa83d5f1650eeaaae
             javafx.scene.Scene scene = new javafx.scene.Scene(nextRoot);
             stage.setScene(scene);
             stage.show();
